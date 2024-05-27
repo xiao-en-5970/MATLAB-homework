@@ -24,7 +24,7 @@ breed_3 = breed_4/2;
 survive_rate = 1.22*10^11;
 % 设置精度
 format long
-% 年龄迭代矩阵A
+% 迭代次数
 N=1000;
 % P显然是收益，也就是鱼重量
 P = zeros(100,1);
