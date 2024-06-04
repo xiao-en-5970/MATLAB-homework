@@ -17,8 +17,6 @@ end
 
 %% 计算v16的最短路
 clc;
-[price,pass]=dijkstra(v,1,6);
-pass = fliplr(pass);
-fprintf("最小花费为:%f\n最小路径为:",price);
-pass
-fprintf("表示从第一年用到第三年换新，然后一直用到第六年初，为最优解\n");
+[s,r]=dijkstra(v,1,6);
+reverse(r);
+fprintf("最小花费为%f\n最小路径为:",s)
