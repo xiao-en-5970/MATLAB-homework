@@ -1,5 +1,5 @@
 # MATLAB-homework
-matlab实验代码存档，学号2022210826，（不得不说git真的很方便存各种东西）
+matlab实验代码存档，（不得不说git真的很方便存各种东西）
 
 # Other
 
