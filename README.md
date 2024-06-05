@@ -1,5 +1,5 @@
 # MATLAB-homework
-matlab屎山作业存档罢了，不得不说git真的很方便存各种东西
+matlab实验代码存档，学号2022210826，（不得不说git真的很方便存各种东西）
 
 # Other
 
@@ -9,6 +9,6 @@ matlab屎山作业存档罢了，不得不说git真的很方便存各种东西
 
 3. data_2_1的意思是第2次作业实验题的第1题表格数据
 
-4. 另外，需要安装Optimization Toolbox库才能跑通所有代码
+4. 另外，需要安装Optimization Toolbox库才能跑通所有代码（因为有一道题需要线性规划求最值）
 
 5. bat文件是方便git上传远程仓库用的，不是MATLAB代码

@@ -48,6 +48,4 @@ intcon = 1:14;
 % 核心，调用intlinprog函数求出约束条件下的f最小值2*TOTAL_WIDTH+value
 [x,value,ef,op] = intlinprog(f,intcon,A,b,[],[],lb,ub);
 smallest_space = round(2*TOTAL_WIDTH+value,2);
-%最喜欢的fprintf，沿用C语言优美的格式化输出
 fprintf("最小浪费空间为%f\n",smallest_space);
-% 14个维度的线性规划确实难蚌

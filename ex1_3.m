@@ -10,6 +10,7 @@ real_square = 41288;
 plot(x,y1,"r-",LineWidth=2);
 hold on
 plot(x,y2,"r-",LineWidth=2);
+hold off
 
 %% 对数据进行三次样条插值
 clc;

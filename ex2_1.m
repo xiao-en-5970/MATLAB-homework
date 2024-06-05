@@ -111,9 +111,7 @@ end
 avg_wait_time = sum(waiting_time)/N
 % 平均在港口时间（其实就是等待时间加上装载时间）
 avg_live_time = sum(waiting_time+unloading_rand_time)/N
-%最喜欢printf的一集
 fprintf("平均等待时间为：%f\n",avg_wait_time);
 fprintf("平均在港时间为：%f\n",avg_live_time);
-% 一百多行屎山，我再写排队问题我就吃屎
 
 
