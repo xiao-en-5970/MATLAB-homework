@@ -15,7 +15,7 @@ r2 = sqrt((x + lam)^2 + y_pos^2);
 
 d2x = 2 * dy + x - lam * (x + u) / r1^3 - u * (x - lam) / r2^3;
 d2y = -2 * dx + y_pos - lam * y_pos / r1^3 - u * y_pos / r2^3;
-[t, sol] = ode45(@(t, y) odefun(t, y, u, lam),[0 10],[1.2; 0; 0; -1.0494]);
+[t, sol] = ode45(@(t, y) odefun(t, y, u, lam),[0 50],[1.2; 0; 0; -1.0494]);
 x_sol = sol(:, 1);
 y_sol = sol(:, 3);
 
